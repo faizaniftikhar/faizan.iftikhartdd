@@ -12,8 +12,8 @@ public class DollarTestV2
 	{
 			Dollar five= new Dollar(5);
 			Dollar container1 = five.times(2);
-			assertEquals(10, container1.amount);
-			Dollar container2 = five.times(3);
-			assertEquals(15, container2.amount);
+			assertEquals(new Dollar(10), container1);
+			container1 = five.times(3);
+			assertEquals(new Dollar(15), container1);
 	}
 }
