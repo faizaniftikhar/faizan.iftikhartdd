@@ -20,4 +20,9 @@ public class Dollar
 		Dollar dollar= (Dollar) object;
 		return amount == dollar.amount;
 	}
+	
+	public int hashCode() 
+	{
+		return (this.hashCode()%2)+amount;
+	}
 }
