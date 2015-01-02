@@ -15,8 +15,4 @@ public class Dollar extends Money
 		return new Dollar(this.amount * multiplier);
 	}
 	
-	public int hashCode() 
-	{
-		return (this.hashCode()%2)+amount;
-	}
 }
