@@ -2,7 +2,6 @@ package com.sibisoft.faizaniftikhartdd;
 
 public class Dollar extends Money
 {
-	private int amount;
 	public Dollar() 
 	{
 		
@@ -17,7 +16,7 @@ public class Dollar extends Money
 	}
 	public boolean equals(Object object)
 	{
-		Dollar dollar= (Dollar) object;
+		Money dollar= (Money) object;
 		return amount == dollar.amount;
 	}
 	
