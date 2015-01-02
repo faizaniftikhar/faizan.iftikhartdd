@@ -1,6 +1,6 @@
 package com.sibisoft.faizaniftikhartdd;
 
-public class Franc 
+public class Franc extends Money 
 {
 	private int amount;
 	public Franc() 
