@@ -2,10 +2,9 @@ package com.sibisoft.faizaniftikhartdd;
 
 public class Franc extends Money 
 {
-	private int amount;
 	public Franc() 
 	{
-		// TODO Auto-generated constructor stub
+		
 	}
 	public Franc(int amount)
 	{
